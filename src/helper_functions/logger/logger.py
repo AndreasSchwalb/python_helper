@@ -1,6 +1,6 @@
 import logging
 
-from extended_config_parser import ExtendedConfigParser
+from ..extended_config_parser import ExtendedConfigParser
 
 
 class Logger:
