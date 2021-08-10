@@ -22,7 +22,7 @@ class ExtendedConfigParser:
             section_key = item[1].lower()
             item_key = '_'.join([item.lower() for item in item[2:]])
             item_value = os.environ['_'.join(item)]
-            
+
             if not config_dict.get(section_key):
                 config_dict[section_key] = {}
             config_dict[section_key][item_key] = item_value
